@@ -1,0 +1,126 @@
+
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing:border-box;
+}
+.card_container {
+  width: 380px;
+  height: 350px;
+  border: 1px solid black;
+  background-color: #D1FFBD;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.short_term_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.short_term {
+  border: 1px solid red;
+  color: red;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.active_trade_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.active_trade_container div {
+  color: green;
+}
+
+.gain_for {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.gain_for div {
+  color: black;
+}
+
+.gain_for .number {
+  font-size: 15px;
+  color: green;
+}
+
+.company_container {
+  height: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.company_container .company_top {
+  display: flex;
+  gap: 1rem;
+}
+
+.company_container .tata_logo {
+  height: 3rem;
+  width: 4rem;
+}
+
+.company_container .tata_logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.company_container .company_name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.company_container .company_end {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.potential_left {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.view_insight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.view_insight button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+  color: white;
+  font-weight: 600;
+} 
